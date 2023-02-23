@@ -14,7 +14,6 @@ body, html{
     font-size: 4rem;
 }
 .content{
-    position:absolute;
     top:60%;
     left:50%;
     width:90%;
@@ -22,8 +21,8 @@ body, html{
     transform: translate(-50%, -50%);
 }
 .card{
+    margin: 20px 0;
     display: inline-block;
-    margin:20px;
     border: 1px solid rgb(207, 207, 207);
     background-color:white;
     border-radius: 5px;
@@ -49,21 +48,19 @@ img{
     transition: background-color .5s;
     margin-top:2rem;
 }
-.sections{
-  position:absolute;
-  top:50%;
-  left:50%;
-  width: 100%;
-  transform: translate(-50%, -50%);
+
+.sections {
+    margin: 0 !important;
 }
 
 .container-btn-mode{
-    position: absolute;
+    margin-bottom: 50px;
+    position: relative;
     top:20px;
-    right: 30px;
     cursor: pointer;
     z-index: 2;
     font-size:0;
+    
   }
   .btn-mode{
     display: inline-block;
